@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build:
+     context: .
+     dockerfile: Dockerfile
+    image: hizzycrypto01/frontend
+    ports:
+       - "8083:8079"
